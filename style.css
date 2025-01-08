@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* Reseteo básico de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo base de la página */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5; /* Color de fondo elegante y claro */
+  color: #333;              /* Texto en gris oscuro para contraste */
+  text-align: center;       /* Centra todo el texto por defecto */
+  line-height: 1.6;         /* Espaciado vertical agradable */
+}
+
+/* ==========================================================================
+   CABECERAS
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  font-weight: 400;         /* Peso moderado para un aspecto más limpio */
+  letter-spacing: 0.5px;    /* Pequeño espaciado entre letras */
+}
+
+/* ==========================================================================
+   PÁRRAFOS
+   ========================================================================== */
+p {
+  margin-bottom: 1em;
+  max-width: 700px;         /* Ancho máximo para mejor legibilidad */
+  margin-left: auto;
+  margin-right: auto;       /* Centra el párrafo si se define un ancho */
+}
+
+/* ==========================================================================
+   ENLACES
+   ========================================================================== */
+a {
+  color: #007BFF;           /* Azul elegante para enlaces */
+  text-decoration: none;    /* Quita el subrayado por defecto */
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;           /* Color ligeramente más oscuro al pasar el cursor */
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   CONTENEDOR
+   ========================================================================== */
+.container {
+  max-width: 1200px;        /* Ajusta según el ancho máximo deseado */
+  margin: 0 auto;           /* Centra el contenedor */
+  padding: 2em;             /* Espaciado interno */
+}
+
+/* ==========================================================================
+   BOTÓN (OPCIONAL)
+   ========================================================================== */
+.btn {
+  display: inline-block;
+  background-color: #333;   /* Color de fondo oscuro */
+  color: #fff;              /* Texto en blanco */
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 1em 0;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;   /* Cambia a un gris más claro al pasar el cursor */
